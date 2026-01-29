@@ -7,6 +7,6 @@ spec:
     app: advanced-nodejs-app-v22
   ports:
     - protocol: TCP
-      port: 0
-      targetPort: 0
+      port: 8080
+      targetPort: 8080
   type: ClusterIP
