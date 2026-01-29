@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: advanced-nodejs-app-v22
+spec:
+  selector:
+    app: advanced-nodejs-app-v22
+  ports:
+    - protocol: TCP
+      port: 0
+      targetPort: 0
+  type: ClusterIP
